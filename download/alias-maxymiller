@@ -2,6 +2,9 @@
 #if [ -f ~/alias-maxymiller ]; then
 #       source ~/alias-maxymiller                                                 
 #fi
+
+#update
+#curl -fsSL https://maxymiller-alias-code.netlify.app/download.sh | bash
                                                                                   
 #ip
 alias ips="ip -c -br a"                                                           
@@ -77,3 +80,6 @@ alias pcinfo="neofetch"
 #mplayer
 alias mplayerascii1="mplayer -vo caca"
 alias mplayerascii2="mplayer -really-quiet -vo caca"
+
+#speedtest-cli
+alias wifist="speedtest-cli"
