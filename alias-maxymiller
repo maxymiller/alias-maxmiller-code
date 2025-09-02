@@ -1,0 +1,79 @@
+#ctrl+c ctrl+v                                                                    
+#if [ -f ~/alias-maxymiller ]; then
+#       source ~/alias-maxymiller                                                 
+#fi
+                                                                                  
+#ip
+alias ips="ip -c -br a"                                                           
+#alias                                                                            
+alias f5="source"
+alias f5alias="f5 ~/alias-maxymiller"                                             
+alias aliasnano="nano ~/alias-maxymiller"
+alias aliascat="cat ~/alias-maxymiller"
+
+#watch
+#watch -n1 ""
+alias f5watch="watch"
+
+#apt                                                                              
+alias aptupnow="echo sudo apt update && sudo apt update && echo sudo apt upgrade && sudo apt upgrade"                                                               
+alias apti="sudo apt install"
+alias aptr="sudo apt remove"
+alias aptupdate="sudo apt update"
+alias aptupgrade="sudo apt upgrade"
+
+#calc                                                                             
+alias calc="bc"
+                                                                                  
+#cal
+alias caltimenow="watch -n1 'date && cal'"                                        
+alias caltimenow3="watch -n1 'date && cal -3'"
+alias caltimenowy="watch -n1 'date && cal -y'"                                    
+
+#cat                                                                              
+alias cat2="batcat"
+                                                                                  
+#tempo
+alias tempo="curl -fsSL https://wttr.in"                                          
+
+#cd                                                                               
+alias ..="cd .."
+                                                                                  
+#tar
+alias untar="tar -xvf"                                                            
+alias untargz="tar -xvzf"
+alias untarbz2="tar -xvjf"                                                        
+alias tarc="tar -cvf"
+alias tarcgz="tar -cvzf"                                                          
+alias tarcbz2="tar -cvjf"
+alias tarhelp="echo untar && echo untargz && echo unzarbz2 && echo tarc && echo tarcgz && echo tarcbz2 && echo tarls && echo tarlsl"
+alias tarls="tar -tf"                                                            
+alias tarlsl="tar -tvf"
+
+#shell
+alias shellsetup="chsh"
+alias shelluser="finger"
+
+#tts
+alias tts1="festival"
+alias tts2="orca"
+
+#tts maxymiller iitpp
+alias iitppa="iitppaleta.sh -a"
+alias iitppn="iitppaleta.sh -n"
+
+#mount
+alias usb="sudo mount"
+alias unusb="sudo umount"
+
+#sys
+alias sys-modo-info="systemctl get-default"
+alias sys-modo-gui="sudo systemctl set-default graphical.target"
+alias sys-modo-terminal="sudo systemctl set-default multi-user.target"
+
+#neofetch
+alias pcinfo="neofetch"
+
+#mplayer
+alias mplayerascii1="mplayer -vo caca"
+alias mplayerascii2="mplayer -really-quiet -vo caca"
