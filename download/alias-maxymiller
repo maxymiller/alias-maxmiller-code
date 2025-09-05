@@ -70,7 +70,7 @@ alias usb="sudo mount"
 alias unusb="sudo umount"
 
 #lsblk
-alias lsblkmaxy="lsblk --output=TRAN,NAME,LABEL,FSUSED,FSAVAIL,FSSIZE,FSUSE%,TYPE,PTTYPE,FSTYPE,PARTTYPENAME,PARTLABEL,MOUNTPOINT,MOUNTPOINTS | less"
+alias lsblkmaxy="lsblk --output=TRAN,NAME,LABEL,FSUSED,FSAVAIL,FSSIZE,FSUSE%,TYPE,PTTYPE,FSTYPE,PARTTYPENAME,PARTLABEL,MOUNTPOINT,MOUNTPOINTS"
 
 #sys
 alias sys-modo-info="systemctl get-default"
