@@ -5,9 +5,13 @@
 
 #update
 #curl -fsSL https://maxymiller-alias-code.netlify.app/download.sh | bash
-                                                                                  
+
+#windows
+alias cls="clear"
+
 #ip
 alias ips="ip -c -br a"                                                           
+
 #alias                                                                            
 alias f5="source"
 alias f5alias="f5 ~/alias-maxymiller"                                             
